@@ -253,16 +253,10 @@ nav {
     background: #fc5552;
 }
 
-/* copyright */
-.copyright {
-    padding: 20px;
-    text-align: center;
-}
-
 .tabs {
     background: #fff4f3;
     max-width: 800px;
-    margin: 100px auto 0;
+    margin: 65px auto;
     border-radius: 10px;
     border: 1px solid var(--main-color);
     display: grid;
@@ -325,4 +319,10 @@ nav {
 .active-tab-content {
     visibility: visible;
     opacity: 1;
+}
+
+/* copyright */
+.copyright {
+    padding: 20px;
+    text-align: center;
 }
