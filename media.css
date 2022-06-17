@@ -39,6 +39,14 @@
         grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
         flex-wrap: nowrap;
     }
+
+    .container-contact {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tabs {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 760px){
@@ -58,5 +66,15 @@
 
     .services-container {
        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .contact-form form input, textarea{
+        width: 100%;
+    }
+
+    .contact-button {
+        margin-bottom: 2rem;
     }
 }
