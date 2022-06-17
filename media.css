@@ -69,7 +69,7 @@
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 425px){
     .contact-form form input, textarea{
         width: 100%;
     }
